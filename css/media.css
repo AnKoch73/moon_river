@@ -37,11 +37,10 @@
 	}
 	.header {
 		grid-template-columns: 1fr;
+height: 100vh;
 	}
 	.header > img {
-		display: none;
-		/* width: 200px;
-		right: calc(100px - (200px / 2)); */
+	display: none;
 	}
 }
 @media (max-width: 576px) {
